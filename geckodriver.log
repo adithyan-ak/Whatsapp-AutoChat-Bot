@@ -1,0 +1,388 @@
+1580704629175	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileg9hTDb"
+1580704633099	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580704633100	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580704633100	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580704633100	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580704645566	Marionette	INFO	Listening on port 41917
+1580704645640	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 10020, MediaPlayback #2] WARNING: Decoder=7f62f28ddc00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 10020, MediaPlayback #2] WARNING: Decoder=7f62f28ddc00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+[Child 10020, MediaPlayback #1] WARNING: Decoder=7f62ef55d400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 10020, MediaPlayback #1] WARNING: Decoder=7f62ef55d400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+1580704893177	Marionette	INFO	Stopped listening on port 41917
+1580704902412	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYO15Ff"
+1580704906635	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580704906636	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580704906636	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580704906636	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580704913754	Marionette	INFO	Listening on port 45741
+1580704913858	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 10351, MediaPlayback #1] WARNING: Decoder=7f43f3f0a000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 10351, MediaPlayback #1] WARNING: Decoder=7f43f3f0a000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+[Child 10351, MediaPlayback #2] WARNING: Decoder=7f43eb820800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 10351, MediaPlayback #2] WARNING: Decoder=7f43eb820800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+1580705162366	Marionette	INFO	Stopped listening on port 45741
+1580705174291	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefTvDDs"
+1580705177778	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580705177778	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580705177779	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580705177779	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580705183101	Marionette	INFO	Listening on port 32899
+1580705183175	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 10637, MediaPlayback #1] WARNING: Decoder=7f568b5b3000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 10637, MediaPlayback #1] WARNING: Decoder=7f568b5b3000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+[Child 10637, MediaPlayback #3] WARNING: Decoder=7f568b5da800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 10637, MediaPlayback #3] WARNING: Decoder=7f568b5da800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+1580705451505	Marionette	INFO	Stopped listening on port 32899
+1580707109083	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilef5AEGG"
+1580707116268	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580707116269	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580707116269	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580707116269	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580707126996	Marionette	INFO	Listening on port 33231
+1580707127071	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 11857, MediaPlayback #2] WARNING: Decoder=7f6f149dc800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 11857, MediaPlayback #2] WARNING: Decoder=7f6f149dc800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+[Child 11857, MediaPlayback #2] WARNING: Decoder=7f6f15b7b000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 11857, MediaPlayback #2] WARNING: Decoder=7f6f15b7b000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1580707409526	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyPrG4B"
+1580707413679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580707413679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580707413680	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580707413680	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580707421370	Marionette	INFO	Listening on port 42249
+1580707421511	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 12183, MediaPlayback #2] WARNING: Decoder=7f53043f6800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 12183, MediaPlayback #2] WARNING: Decoder=7f53043f6800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+[Child 12183, MediaPlayback #2] WARNING: Decoder=7f52fc370c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 12183, MediaPlayback #2] WARNING: Decoder=7f52fc370c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1580775460389	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilek1gh71"
+1580775475299	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580775475299	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580775475300	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580775475300	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580775509904	Marionette	INFO	Listening on port 33383
+1580775510922	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 18586, MediaPlayback #2] WARNING: Decoder=7f1bcfdb4800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 18586, MediaPlayback #2] WARNING: Decoder=7f1bcfdb4800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+[Child 18586, MediaPlayback #2] WARNING: Decoder=7f1bc48cc000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 351
+[Child 18586, MediaPlayback #2] WARNING: Decoder=7f1bc48cc000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3307
+1580775641554	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580775660471	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580784592041	Marionette	INFO	Stopped listening on port 33383
+1580787173561	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHpgLJd"
+1580787175988	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580787175988	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580787175989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580787175989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580787181538	Marionette	INFO	Listening on port 36215
+1580787181612	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+[Parent 21698, Gecko_IOThread] WARNING: pipe error (68): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1580787300551	Marionette	INFO	Stopped listening on port 36215
+1580788171634	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiwatTu"
+1580788172806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580788172807	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580788172807	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580788172807	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580788176622	Marionette	INFO	Listening on port 42809
+1580788176662	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+[Parent 22320, Gecko_IOThread] WARNING: pipe error (58): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1580788237159	Marionette	INFO	Stopped listening on port 42809
+1580788247856	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOmLmyH"
+1580788248990	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580788248991	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580788248991	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580788248991	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580788252846	Marionette	INFO	Listening on port 41349
+1580788252875	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+[Parent 22597, Gecko_IOThread] WARNING: pipe error (68): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 22597, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1580788329496	Marionette	INFO	Stopped listening on port 41349
+1580788332540	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeP9kQM"
+1580788333615	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580788333615	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580788333615	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580788333616	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580788337439	Marionette	INFO	Listening on port 34291
+1580788337461	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+[Parent 22853, Gecko_IOThread] WARNING: pipe error (68): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 22853, Gecko_IOThread] WARNING: pipe error (58): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1580788421403	Marionette	INFO	Stopped listening on port 34291
+1580788434342	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehXrFB3"
+1580788435385	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580788435386	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580788435386	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580788435386	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580788439029	Marionette	INFO	Listening on port 39325
+1580788439060	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+[Parent 23144, Gecko_IOThread] WARNING: pipe error (68): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 23144, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1580788541728	Marionette	INFO	Stopped listening on port 39325
+1580789525262	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileIw24dQ"
+1580789526403	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580789526404	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580789526404	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580789526405	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580789533346	Marionette	INFO	Listening on port 46445
+1580789533406	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+[Parent 23864, Gecko_IOThread] WARNING: pipe error (68): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 23864, Gecko_IOThread] WARNING: pipe error (60): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1580789653938	Marionette	INFO	Stopped listening on port 46445
+1580789658073	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejyD6Wq"
+1580789659458	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580789659458	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580789659458	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580789659459	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580789663758	Marionette	INFO	Listening on port 44191
+1580789663795	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+1580792236926	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0vRncX"
+1580792246021	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580792246021	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580792246021	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580792246022	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580792262582	Marionette	INFO	Listening on port 45629
+1580792262620	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+1580792280425	Marionette	INFO	Stopped listening on port 44191
+1580792363666	Marionette	INFO	Stopped listening on port 45629
+1580792428735	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKvVHRy"
+1580792432491	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580792432492	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580792432492	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580792432493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580792438451	Marionette	INFO	Listening on port 40731
+1580792438486	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+[Parent 25232, Gecko_IOThread] WARNING: pipe error (68): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 25232, Gecko_IOThread] WARNING: pipe error (85): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1580793832892	Marionette	INFO	Stopped listening on port 40731
+1580793846220	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJmlW0O"
+1580793847275	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580793847275	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580793847276	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580793847276	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580793851225	Marionette	INFO	Listening on port 36623
+1580793851246	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1580794760563	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezH3wfR"
+1580794762780	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580794762780	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580794762781	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580794762781	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580794766663	Marionette	INFO	Listening on port 41927
+1580794766693	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+1580794770215	Marionette	INFO	Stopped listening on port 41927
+1580794790809	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4P1TQP"
+1580794791834	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580794791835	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580794791835	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580794791835	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580794795712	Marionette	INFO	Listening on port 38733
+1580794795731	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+[Parent 26574, Gecko_IOThread] WARNING: pipe error (74): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1580795019261	Marionette	INFO	Stopped listening on port 38733
+1580795032826	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqQ2IJE"
+1580795034072	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580795034073	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580795034073	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580795034073	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580795038267	Marionette	INFO	Listening on port 34815
+1580795038371	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1580795904287	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3WoRZn"
+1580795907947	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580795907947	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580795907948	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580795907948	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580795923062	Marionette	INFO	Listening on port 36795
+1580795923212	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+1580796154047	Marionette	INFO	Stopped listening on port 36795
+1580796254179	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile05ChuE"
+1580796258403	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580796258403	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580796258404	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580796258404	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580796265698	Marionette	INFO	Listening on port 44309
+1580796265718	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+[Parent 27883, Gecko_IOThread] WARNING: pipe error (68): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Child 27988, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1580796659167	Marionette	INFO	Stopped listening on port 44309
+1580796674526	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMz8mNp"
+1580796676455	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580796676455	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580796676456	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580796676456	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580796680903	Marionette	INFO	Listening on port 46715
+1580796680951	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 220: TypeError: this.service is undefined
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 224: TypeError: this.service is undefined
+[Parent 28294, Gecko_IOThread] WARNING: pipe error (58): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1580797183707	Marionette	INFO	Stopped listening on port 46715
+1580797195929	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemrJm0p"
+1580797198448	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580797198449	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580797198449	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580797198450	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580797203672	Marionette	INFO	Listening on port 41255
+1580797203760	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 220: TypeError: this.service is undefined
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 224: TypeError: this.service is undefined
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 220: TypeError: this.service is undefined
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 224: TypeError: this.service is undefined
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 220: TypeError: this.service is undefined
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 224: TypeError: this.service is undefined
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 220: TypeError: this.service is undefined
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 224: TypeError: this.service is undefined
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 220: TypeError: this.service is undefined
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 224: TypeError: this.service is undefined
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 220: TypeError: this.service is undefined
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 224: TypeError: this.service is undefined
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 220: TypeError: this.service is undefined
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 224: TypeError: this.service is undefined
+1580798382148	Marionette	INFO	Stopped listening on port 41255
+1580798523009	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZP9dOC"
+1580798527073	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580798527074	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580798527074	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580798527074	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580798535465	Marionette	INFO	Listening on port 39949
+1580798535560	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+1580798819999	Marionette	INFO	Stopped listening on port 39949
+1580798827098	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeJkrNi"
+1580798829191	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580798829192	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580798829192	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580798829193	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580798834204	Marionette	INFO	Listening on port 42457
+1580798834235	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1580799048928	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEjElIG"
+1580799050321	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580799050321	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580799050322	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580799050322	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580799054401	Marionette	INFO	Listening on port 44793
+1580799054448	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1580799220803	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSVcwUQ"
+1580799221936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580799221936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580799221937	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580799221937	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580799225786	Marionette	INFO	Listening on port 40921
+1580799225824	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 220: TypeError: this.service is undefined
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 224: TypeError: this.service is undefined
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 220: TypeError: this.service is undefined
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 224: TypeError: this.service is undefined
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 220: TypeError: this.service is undefined
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 224: TypeError: this.service is undefined
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 220: TypeError: this.service is undefined
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 224: TypeError: this.service is undefined
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 220: TypeError: this.service is undefined
+JavaScript error: resource://gre/modules/PushComponents.jsm, line 224: TypeError: this.service is undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
