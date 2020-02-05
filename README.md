@@ -37,9 +37,9 @@ sudo pip3 install selenium
 ```
 ## Setup:
 
-Edit the **Automessage.py** file as follows
+Edit the **WhatBot.py** file as follows
 
-Change the value of the ```Contactname``` variable of **Line 14** with name of your WhatsApp contact to you want the Bot to speak with.
+Change the value of the ```ContactName``` variable of **Line 14** with name of your WhatsApp contact to you want the Bot to speak with.
 
 ## Execution:
 
