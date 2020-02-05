@@ -472,3 +472,24 @@ Exiting due to channel error.
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
 [Child 36337, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-esr-tpvy6K/firefox-esr-68.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
 Exiting due to channel error.
+1580875994666	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVBbIQp"
+1580876000671	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580876000672	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580876000672	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580876000672	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1580876029054	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6286Nl"
+1580876030143	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580876030144	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580876030144	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580876030144	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1580876047973	Marionette	INFO	Listening on port 35511
+1580876048307	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.e01fef611b286eaf8de8.js, line 2: unreachable code after return statement
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://browser/content/browser-customization.js, line 176: NS_ERROR_NOT_INITIALIZED: 
+1580876693052	Marionette	INFO	Stopped listening on port 35511

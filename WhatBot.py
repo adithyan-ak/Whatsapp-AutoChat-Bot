@@ -15,75 +15,87 @@ def Main():
 
     Message = "Android Auto Messaging Bot Here!" #Enter the Message
 
-    driver.find_element_by_xpath("//input[@value='']").click()
-    driver.find_element_by_xpath("//div[@id='side']/div/div/label/input").clear()
-    driver.find_element_by_xpath("//div[@id='side']/div/div/label/input").send_keys("Cute Camillus") #Type contact name
-    time.sleep(7)
-    driver.find_element_by_xpath("//div[2]/div[2]/div/span/span").click() #Click open chat name
-    time.sleep(5)
+    try:
 
-    lastmessage = driver.find_elements_by_xpath("//div[@class='FTBzM message-in']")
-    range = len(lastmessage)
-    last = lastmessage[range-1]
-    lsmsg = last.text
-    finalmsg = stripper(lsmsg)
-    firstfinal = finalmsg #Alternate variable #How are you
-
-    Message = str(getQuery(finalmsg))
-
-    #con.clear()
-    con = driver.find_element_by_xpath("//div[@id='main']/footer/div/div[2]/div/div[2]") #Find the reply box
-    con.click() #Click the reply box
-    con.send_keys(Message) #type in the reply box
-    con.send_keys(Keys.RETURN) #hit enter
-
-    count = 0
-
-    while(True):
+        driver.find_element_by_xpath("//input[@value='']").click() # Click on search button
+        driver.find_element_by_xpath("//div[@id='side']/div/div/label/input").clear()
+        driver.find_element_by_xpath("//div[@id='side']/div/div/label/input").send_keys("Cute Camillus") #Type contact name
+        time.sleep(5)
+        driver.find_element_by_xpath("//div[2]/div[2]/div/span/span").click() #Click open chat name
+        time.sleep(5)
 
 
         lastmessage = driver.find_elements_by_xpath("//div[@class='FTBzM message-in']")
         range = len(lastmessage)
-        last = lastmessage[range - 1]
-        lastprevious = lastmessage[range-2]
-        lprevious = lastprevious.text
-        lprevious = stripper(lprevious)
+        last = lastmessage[range-1]
         lsmsg = last.text
         finalmsg = stripper(lsmsg)
+        firstfinal = finalmsg # First received message
+
+        Message = str(getQuery(finalmsg))
+
+        #con.clear()
+        con = driver.find_element_by_xpath("//div[@id='main']/footer/div/div[2]/div/div[2]") #Find the reply box
+        con.click() #Click the reply box
+        con.send_keys(Message) #type in the reply box
+        con.send_keys(Keys.RETURN) #hit enter
+
+        count = 0 # Initial count set to 0
+
+        while(True):
 
 
-        if finalmsg != lprevious:
-            count = 0
-
-        if finalmsg != firstfinal: #Comparing with first alternate variable
-
-            Message = str(getQuery(finalmsg))
-
-            time.sleep(3)
-            # con.clear()
-            con = driver.find_element_by_xpath("//div[@id='main']/footer/div/div[2]/div/div[2]")  # Find the reply box
-            con.click()  # Click the reply box
-            con.send_keys(Message)  # type in the reply box
-            con.send_keys(Keys.RETURN)  # hit enter
-
-            firstfinal = finalmsg
-
-        elif finalmsg == lprevious and count == 0:
-
-            Message = str(getQuery(finalmsg))
-            time.sleep(3)
-            # con.clear()
-            con = driver.find_element_by_xpath("//div[@id='main']/footer/div/div[2]/div/div[2]")  # Find the reply box
-            con.click()  # Click the reply box
-            con.send_keys(Message)  # type in the reply box
-            con.send_keys(Keys.RETURN)
-            count = count+1
+            lastmessage = driver.find_elements_by_xpath("//div[@class='FTBzM message-in']") # Selenium element for accessing all received messages
+            range = len(lastmessage) # Total length of Messages on page
+            last = lastmessage[range - 1] # Selenium element for last message
+            lsmsg = last.text # last message with date in last line
+            finalmsg = stripper(lsmsg) # Last message
+            lastprevious = lastmessage[range - 2] # Selenium element for last previous message
+            lprevious = lastprevious.text  # last previous message with date in last line
+            lprevious = stripper(lprevious)  # Last previous message
 
 
-        time.sleep(3)
+            if finalmsg != lprevious: # if Last message is not equal to Last previous message
 
-def stripper(s):
-    return s[:s.rfind('\n')]
+                count = 0 # Count is reset to 0 to prevent repeated execution
+
+            if finalmsg != firstfinal: # If Last message is not equal to first received message
+
+                Message = str(getQuery(finalmsg)) # Get result for last message from Chatbot
+
+                time.sleep(3)
+                # con.clear()
+                con = driver.find_element_by_xpath("//div[@id='main']/footer/div/div[2]/div/div[2]")  # Find the reply box
+                con.click()  # Click the reply box
+                con.send_keys(Message)  # type in the reply box
+                con.send_keys(Keys.RETURN)  # hit enter
+
+                firstfinal = finalmsg # Re-writing the first received message with next received message
+
+            elif finalmsg == lprevious and count == 0: # Checking whether the last message and previous message are same and count is 0
+
+                Message = str(getQuery(finalmsg)) # Get result for last message from Chatbot
+                time.sleep(3)
+                # con.clear()
+                con = driver.find_element_by_xpath("//div[@id='main']/footer/div/div[2]/div/div[2]")  # Find the reply box
+                con.click()  # Click the reply box
+                con.send_keys(Message)  # type in the reply box
+                con.send_keys(Keys.RETURN) # press enter
+                count = count+1 # Incrementing the count to prevent repeated execution
+
+
+    except Exception as e:
+        print("Exception Occured")
+        print(e)
+
+def stripper(s): # Stripper function for removing last line
+
+    try:
+        return s[:s.rfind('\n')] # Return the message after removing last line
+
+    except Exception as e:
+        print("Exception occured")
+        print(e)
 
 def getQuery(query):
     try:
@@ -94,10 +106,9 @@ def getQuery(query):
         return bot_response
 
     # Press ctrl-c or ctrl-d on the keyboard to exit
-    except (KeyboardInterrupt, EOFError, SystemExit):
-        pass
-
-
+    except Exception as e:
+        print("Exception occured")
+        print(e)
 
 if __name__ == '__main__':
 
@@ -118,4 +129,5 @@ if __name__ == '__main__':
         ],
         trainer='chatterbot.trainers.ListTrainer'
     )
+
     Main()
