@@ -17,7 +17,7 @@ def Main():
 
     driver.find_element_by_xpath("//input[@value='']").click()
     driver.find_element_by_xpath("//div[@id='side']/div/div/label/input").clear()
-    driver.find_element_by_xpath("//div[@id='side']/div/div/label/input").send_keys("Camillus") #Type contact name
+    driver.find_element_by_xpath("//div[@id='side']/div/div/label/input").send_keys("Cute Camillus") #Type contact name
     time.sleep(7)
     driver.find_element_by_xpath("//div[2]/div[2]/div/span/span").click() #Click open chat name
     time.sleep(5)
@@ -27,25 +27,38 @@ def Main():
     last = lastmessage[range-1]
     lsmsg = last.text
     finalmsg = stripper(lsmsg)
-    firstfinal = finalmsg
+    firstfinal = finalmsg #Alternate variable #How are you
+
     Message = str(getQuery(finalmsg))
+
     #con.clear()
     con = driver.find_element_by_xpath("//div[@id='main']/footer/div/div[2]/div/div[2]") #Find the reply box
     con.click() #Click the reply box
     con.send_keys(Message) #type in the reply box
     con.send_keys(Keys.RETURN) #hit enter
 
+    count = 0
+
     while(True):
+
 
         lastmessage = driver.find_elements_by_xpath("//div[@class='FTBzM message-in']")
         range = len(lastmessage)
         last = lastmessage[range - 1]
+        lastprevious = lastmessage[range-2]
+        lprevious = lastprevious.text
+        lprevious = stripper(lprevious)
         lsmsg = last.text
         finalmsg = stripper(lsmsg)
 
-        if finalmsg != firstfinal:
+
+        if finalmsg != lprevious:
+            count = 0
+
+        if finalmsg != firstfinal: #Comparing with first alternate variable
 
             Message = str(getQuery(finalmsg))
+
             time.sleep(3)
             # con.clear()
             con = driver.find_element_by_xpath("//div[@id='main']/footer/div/div[2]/div/div[2]")  # Find the reply box
@@ -54,6 +67,18 @@ def Main():
             con.send_keys(Keys.RETURN)  # hit enter
 
             firstfinal = finalmsg
+
+        elif finalmsg == lprevious and count == 0:
+
+            Message = str(getQuery(finalmsg))
+            time.sleep(3)
+            # con.clear()
+            con = driver.find_element_by_xpath("//div[@id='main']/footer/div/div[2]/div/div[2]")  # Find the reply box
+            con.click()  # Click the reply box
+            con.send_keys(Message)  # type in the reply box
+            con.send_keys(Keys.RETURN)
+            count = count+1
+
 
         time.sleep(3)
 
