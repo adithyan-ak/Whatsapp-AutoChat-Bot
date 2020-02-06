@@ -1,8 +1,8 @@
 # Whatsapp Auto Chat AI Bot :robot:
 
-Annoyed of replying to WhatsApp texts? Let Whatsapp Chat Bot do the work for you. The Whatsapp Auto Chat Bot let's you to select a specific contact and it'll start chatting with the help of Artifical Intelligence and Machine Learning.
+Annoyed of replying to WhatsApp texts? Let Whatsapp Chat Bot do the work for you. The Whatsapp Auto Chat Bot let's you to select a specific contact and it'll start chatting with them with the help of Artifical Intelligence and Machine Learning.
 
-All you have to do is, just to set-up the bot, select a contat and run the bot.
+All you have to do is, just to set-up the bot, select a contact and run the bot.
 
 The Bot is inspired from a TV Series Silicon Valley (S06 E01) where Gilfoyle build's an AI bot to chat with Dinesh
 
