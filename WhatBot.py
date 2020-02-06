@@ -1,17 +1,20 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
+
 from chatterbot import ChatBot
 import time
 
 
 def Main():
     driver = webdriver.Firefox()
+    actions = ActionChains(driver)
     driver.get("https://web.whatsapp.com/")
 
     input("Press anything after QR scan")
     time.sleep(5)
 
-    ContactName = 'Baddy'  # Enter the contact names
+    ContactName = 'Akshay'  # Enter the contact names
 
     Message = "Android Auto Messaging Bot Here!"  # Enter the Message
 
@@ -22,9 +25,12 @@ def Main():
         driver.find_element_by_xpath("//div[@id='side']/div/div/label/input").send_keys(
             ContactName)  # Type contact name
         time.sleep(5)
+        actions.move_to_element_with_offset(driver.find_element_by_tag_name('body'), 0, 0) #170.2×72
+        Xcoordinates = 155.2
+        Ycoordinates = 71
+        actions.move_by_offset(Xcoordinates, Ycoordinates).click().perform()
         driver.find_element_by_xpath("//div[2]/div[2]/div/span/span").click()  # Click open chat name
         time.sleep(5)
-
         lastmessage = driver.find_elements_by_xpath("//div[@class='FTBzM message-in']")
         range = len(lastmessage)
         last = lastmessage[range - 1]

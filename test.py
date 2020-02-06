@@ -1,101 +1,103 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
+
 from chatterbot import ChatBot
 import time
 
-def Main():
 
+def Main():
     driver = webdriver.Firefox()
+
     driver.get("https://web.whatsapp.com/")
 
     input("Press anything after QR scan")
     time.sleep(5)
 
-    names = 'Baddy' #Enter the contact names
+    ContactName = 'KC'  # Enter the contact names
 
-    Message = "Android Auto Messaging Bot Here!" #Enter the Message
+    Message = "Android Auto Messaging Bot Here!"  # Enter the Message
 
-    try:
+    driver.find_element_by_xpath("//input[@value='']").click()  # Click on search button
+    driver.find_element_by_xpath("//div[@id='side']/div/div/label/input").clear()
+    driver.find_element_by_xpath("//div[@id='side']/div/div/label/input").send_keys(ContactName)  # Type contact name
+    time.sleep(10)
+    actions = ActionChains(driver)
+    Xcoordinates = 287.2
+    Ycoordinates = 71
+    actions.move_to_element_with_offset(driver.find_element_by_tag_name('body'), 0, 0) #170.2×72
+    actions.move_by_offset(Xcoordinates, Ycoordinates).click().perform()# Click open chat name
+    time.sleep(8)
+    lastmessage = driver.find_elements_by_xpath("//div[@class='FTBzM message-in']")
+    range = len(lastmessage)
+    last = lastmessage[range - 1]
+    lsmsg = last.text
+    finalmsg = stripper(lsmsg)
+    firstfinal = finalmsg  # First received message
 
-        driver.find_element_by_xpath("//input[@value='']").click() # Click on search button
-        driver.find_element_by_xpath("//div[@id='side']/div/div/label/input").clear()
-        driver.find_element_by_xpath("//div[@id='side']/div/div/label/input").send_keys("Cute Camillus") #Type contact name
-        time.sleep(5)
-        driver.find_element_by_xpath("//div[2]/div[2]/div/span/span").click() #Click open chat name
-        time.sleep(5)
+    Message = str(getQuery(finalmsg))
+
+    # con.clear()
+    con = driver.find_element_by_xpath("//div[@id='main']/footer/div/div[2]/div/div[2]")  # Find the reply box
+    con.click()  # Click the reply box
+    con.send_keys(Message)  # type in the reply box
+    con.send_keys(Keys.RETURN)  # hit enter
+
+    count = 0  # Initial count set to 0
+
+    while True:
+
+        lastmessage = driver.find_elements_by_xpath(
+            "//div[@class='FTBzM message-in']")  # Selenium element for accessing all received messages
+        range = len(lastmessage)  # Total length of Messages on page
+        last = lastmessage[range - 1]  # Selenium element for last message
+        lsmsg = last.text  # last message with date in last line
+        finalmsg = stripper(lsmsg)  # Last message
+        lastprevious = lastmessage[range - 2]  # Selenium element for last previous message
+        lprevious = lastprevious.text  # last previous message with date in last line
+        lprevious = stripper(lprevious)  # Last previous message
+
+        if finalmsg != lprevious:  # if Last message is not equal to Last previous message
+
+            count = 0  # Count is reset to 0 to prevent repeated execution
+
+        if finalmsg != firstfinal:  # If Last message is not equal to first received message
+
+            Message = str(getQuery(finalmsg))  # Get result for last message from Chatbot
+
+            time.sleep(3)
+            # con.clear()
+            con = driver.find_element_by_xpath(
+                "//div[@id='main']/footer/div/div[2]/div/div[2]")  # Find the reply box
+            con.click()  # Click the reply box
+            con.send_keys(Message)  # type in the reply box
+            con.send_keys(Keys.RETURN)  # hit enter
+
+            firstfinal = finalmsg  # Re-writing the first received message with next received message
+
+        elif finalmsg == lprevious and count == 0:  # Checking whether the last message and previous message are
+            # same and count is 0
+
+            Message = str(getQuery(finalmsg))  # Get result for last message from Chatbot
+            time.sleep(3)
+            # con.clear()
+            con = driver.find_element_by_xpath(
+                "//div[@id='main']/footer/div/div[2]/div/div[2]")  # Find the reply box
+            con.click()  # Click the reply box
+            con.send_keys(Message)  # type in the reply box
+            con.send_keys(Keys.RETURN)  # press enter
+            count = count + 1  # Incrementing the count to prevent repeated execution
 
 
-        lastmessage = driver.find_elements_by_xpath("//div[@class='FTBzM message-in']")
-        range = len(lastmessage)
-        last = lastmessage[range-1]
-        lsmsg = last.text
-        finalmsg = stripper(lsmsg)
-        firstfinal = finalmsg # First received message
-
-        Message = str(getQuery(finalmsg))
-
-        #con.clear()
-        con = driver.find_element_by_xpath("//div[@id='main']/footer/div/div[2]/div/div[2]") #Find the reply box
-        con.click() #Click the reply box
-        con.send_keys(Message) #type in the reply box
-        con.send_keys(Keys.RETURN) #hit enter
-
-        count = 0 # Initial count set to 0
-
-        while(True):
-
-
-            lastmessage = driver.find_elements_by_xpath("//div[@class='FTBzM message-in']") # Selenium element for accessing all received messages
-            range = len(lastmessage) # Total length of Messages on page
-            last = lastmessage[range - 1] # Selenium element for last message
-            lsmsg = last.text # last message with date in last line
-            finalmsg = stripper(lsmsg) # Last message
-            lastprevious = lastmessage[range - 2] # Selenium element for last previous message
-            lprevious = lastprevious.text  # last previous message with date in last line
-            lprevious = stripper(lprevious)  # Last previous message
-
-
-            if finalmsg != lprevious: # if Last message is not equal to Last previous message
-
-                count = 0 # Count is reset to 0 to prevent repeated execution
-
-            if finalmsg != firstfinal: # If Last message is not equal to first received message
-
-                Message = str(getQuery(finalmsg)) # Get result for last message from Chatbot
-
-                time.sleep(3)
-                # con.clear()
-                con = driver.find_element_by_xpath("//div[@id='main']/footer/div/div[2]/div/div[2]")  # Find the reply box
-                con.click()  # Click the reply box
-                con.send_keys(Message)  # type in the reply box
-                con.send_keys(Keys.RETURN)  # hit enter
-
-                firstfinal = finalmsg # Re-writing the first received message with next received message
-
-            elif finalmsg == lprevious and count == 0: # Checking whether the last message and previous message are same and count is 0
-
-                Message = str(getQuery(finalmsg)) # Get result for last message from Chatbot
-                time.sleep(3)
-                # con.clear()
-                con = driver.find_element_by_xpath("//div[@id='main']/footer/div/div[2]/div/div[2]")  # Find the reply box
-                con.click()  # Click the reply box
-                con.send_keys(Message)  # type in the reply box
-                con.send_keys(Keys.RETURN) # press enter
-                count = count+1 # Incrementing the count to prevent repeated execution
-
-
-    except Exception as e:
-        print("Exception Occured")
-        print(e)
-
-def stripper(s): # Stripper function for removing last line
+def stripper(s):  # Stripper function for removing last line
 
     try:
-        return s[:s.rfind('\n')] # Return the message after removing last line
+        return s[:s.rfind('\n')]  # Return the message after removing last line
 
     except Exception as e:
         print("Exception occured")
         print(e)
+
 
 def getQuery(query):
     try:
@@ -110,8 +112,8 @@ def getQuery(query):
         print("Exception occured")
         print(e)
 
-if __name__ == '__main__':
 
+if __name__ == '__main__':
     chatbot = ChatBot('Adithyan AK')
 
     bot = ChatBot(
