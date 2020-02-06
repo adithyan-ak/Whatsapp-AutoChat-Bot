@@ -1,11 +1,17 @@
-# Android Auto Message Bot :robot:
+# Whatsapp Auto Chat AI Bot :robot:
 
-Automated Android text messaging bot that uses android web messaging feature to send automated reply messages to multiple contacts for a particular interval.
+Annoyed of replying to WhatsApp texts? Let Whatsapp Chat Bot do the work for you. The Whatsapp Auto Chat Bot let's you to select a specific contact and it'll start chatting with the help of Artifical Intelligence and Machine Learning.
+
+All you have to do is, just to set-up the bot, select a contat and run the bot.
+
+The Bot is inspired from a TV Series Silicon Valley (S06 E01) where Gilfoyle build's an AI bot to chat with Dinesh
+
+Link to Watch the Clip : https://www.youtube.com/watch?v=KEzvFiR_Dts
 
 ## Installation
 
 ```
-git clone https://github.com/adithyan-ak/AndroidAutoMessageBot
+git clone https://github.com/adithyan-ak/Whatsapp-AutoChat-Bot.git
 ```
 
 ## Recommended Python Version:
@@ -31,34 +37,20 @@ sudo pip3 install selenium
 ```
 ## Setup:
 
-Edit the **Automessage.py** file according to your needs. 
+Edit the **Automessage.py** file as follows
 
-Add the contact names to whom you wish to send the message in ```names```(Tuple) variable of **Line 10**.
-
-Add the Message which you wish to send to the selected contacts in ```Message``` variable of **Line 12**.
-
-Edit the **AutoChat.py** file according to your needs.
-
-Change the contact name with whom you want the Chatbot to reply automatically in ```Contact``` variable of **Line 8**.
-
+Change the value of the ```Contactname``` variable of **Line 14** with name of your WhatsApp contact to you want the Bot to speak with.
 
 ## Execution:
 
-To send a particular message to selected contacts automatically, run the **AutoMessage.py** file.
-
+After changing the Contact name, run the **WhatBot.py** File
 ```
-python3 AutoMessage.py
-```
-
-To send automatically chat to a contact, run the **AutoChat.py** file.
-
-```
-python3 AutoChat.py
+python3 WhatBot.py
 ```
 
 ## License
 
-AndroidMessageBot is licensed under the GNU GPL license. take a look at the [LICENSE](https://github.com/adithyan-ak/AndroidMessageBot/blob/master/LICENSE) for more information.
+WhatsApp Auto Chat Bot is licensed under the GNU GPL license. take a look at the [LICENSE](https://github.com/adithyan-ak/AndroidMessageBot/blob/master/LICENSE) for more information.
 
 
 ## Version
